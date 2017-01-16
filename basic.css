@@ -1,0 +1,86 @@
+html 
+{
+background-image:url("background.gif");
+}
+body
+{
+text-align: center;
+}
+h1
+{
+text-align: center;
+font-size: 40pt;
+color: black;
+background-image:white.jpg;
+font-family:Palatino,Verdana,Arial;
+}
+h2
+{
+color:#000;
+}
+ul
+{
+text-align: center;
+font-size: 20pt;
+list-style: none;
+}
+li
+{
+text-align: center;
+font-size: 20pt;
+list-style: none;
+color:black;
+font-family:Bookman, Geneva, sans-serif;
+}
+ol
+{
+	color:#F00
+}
+
+img
+{
+border-color: black;
+border-style: solid;
+margin: 2%;
+}
+p
+{
+	font-size: 15pt;
+	background-color:#FFF;
+	border:dashed;
+}
+#bibliography
+{
+font-size: 1pt;
+}
+
+/* unvisited link */
+a:link 
+{
+    color: #283747;
+	text-decoration: none;
+}
+
+/* visited link */
+a:visited 
+{
+    color: #A9CCE3 ;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a:hover 
+{
+    color: #212F3C ;
+	background-color: #ffffff;
+	opacity : .5 ;
+}
+
+/* selected link */
+a:active 
+{
+    color: #68B496;
+	text-decoration: underline;
+}
+
+
